@@ -1,0 +1,99 @@
+main{
+	font-family: "Times New Roman";
+	font-style: italic;
+}
+footer.foot1{
+	text-align: center;
+}
+footer.foot2{
+	text-align: right;
+}
+body{
+	background-color: rgb(4, 30, 50);
+	color:#f0ffff;
+}
+header{
+	text-align: center;
+}
+header:hover{
+	color:rgba(0, 165, 115, 0.466);
+}
+th{
+	border:1px solid #26A1FE;
+	border-collapse: collapse;
+	border-radius: 20rem;
+}
+td{
+	border:1px solid #26A1FE;
+	border-collapse: collapse;
+	
+}
+
+table{
+	border-radius: 20px;
+	border-collapse: collapse;
+	color:#FFF;
+	background:#061b1b;
+	border:8px solid #26A1FE;
+	}
+h2{
+	text-align: center;
+}
+
+h2.menu{
+	cursor: pointer; 
+}
+p {
+	font-family: "Trebuchet MS";
+	text-indent: 2rem;
+	letter-spacing: 0.1rem;
+}
+h2.ListaFils{
+	cursor: pointer;
+}
+nav{
+	text-align: center;
+}
+a:hover{
+	color: rgba(10, 84, 102, 0.849);
+}
+a{
+	color:rgba(40, 191, 218, 0.733)
+}
+ol{
+	list-style: none;
+}
+li{
+	list-style: none;
+}
+ol.itemMenu{
+	color:  rgba(142, 230, 218, 0.700);
+}
+ol.itemFils{
+	color:  rgba(142, 230, 218, 0.700);
+}
+button.but1{
+  	font-size: 1em;
+  	background: #3467FE;
+  	color: #fff;
+  	border: 0.25rem solid #3438FE;
+  	padding: 0.85em 0.75em;
+  	margin: 1rem;
+  	position: relative;
+  	z-index: 1;
+  	overflow: hidden;
+}
+button.but1:hover {
+	transition-property: font-size;
+	transition-duration: 5ms;
+	transition-delay: 6ms;
+	background: #3498db;
+	color: #FFF;
+  }
+button.but1::after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	padding: 0.85em 0.75em;
+	display: block;
+}
