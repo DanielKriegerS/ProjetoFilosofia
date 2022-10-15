@@ -23,6 +23,10 @@ th{
 	border-collapse: collapse;
 	border-radius: 20rem;
 }
+td.pre1{
+	border-width: 0.5em;
+	text-align: center;
+}
 td{
 	border:1px solid #26A1FE;
 	border-collapse: collapse;
@@ -58,21 +62,27 @@ a:hover{
 	color: rgba(10, 84, 102, 0.849);
 }
 a{
+	font-size: 150%;
 	color:rgba(40, 191, 218, 0.733)
 }
-ol{
-	list-style: none;
+div.divButt{
+	text-align: center;
 }
-li{
+section.topics{
+	color:  rgba(142, 230, 218, 0.700);
+}
+li.items{
 	list-style: none;
 }
 ol.itemMenu{
 	color:  rgba(142, 230, 218, 0.700);
 }
 ol.itemFils{
+	list-style: none;
 	color:  rgba(142, 230, 218, 0.700);
 }
-button.but1{
+button.but1,
+button.but2{
   	font-size: 1em;
   	background: #3467FE;
   	color: #fff;
@@ -83,17 +93,11 @@ button.but1{
   	z-index: 1;
   	overflow: hidden;
 }
-button.but1:hover {
+button.but1:hover,
+button.but2:hover {
 	transition-property: font-size;
 	transition-duration: 5ms;
 	transition-delay: 6ms;
 	background: #3498db;
 	color: #FFF;
   }
-button.but1::after {
-	content: "";
-	position: absolute;
-	z-index: -1;
-	padding: 0.85em 0.75em;
-	display: block;
-}
