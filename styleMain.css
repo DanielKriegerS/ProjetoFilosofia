@@ -32,10 +32,7 @@ td{
 	border-collapse: collapse;
 	
 }
-
 table{
-	display:inline-flexbox;
-	border-radius: 20px;
 	border-collapse: collapse;
 	color:#FFF;
 	background:#061b1b;
@@ -66,9 +63,6 @@ a{
 	font-size: 150%;
 	color:rgba(40, 191, 218, 0.733)
 }
-div.divButt{
-	text-align: center;
-}
 section.topics{
 	color:  rgba(142, 230, 218, 0.700);
 }
@@ -87,10 +81,6 @@ button.but2{
 	background: #3498db;
   	border: 0.25rem solid #3438FE;
   	padding: 0.85em 0.75em;
-  	margin: 1rem;
-  	position: relative;
-  	z-index: 1;
-  	overflow: hidden;
 	border-radius: 70px;
 }
 button.but1:hover,
@@ -99,7 +89,6 @@ button.but2:hover {
 	transition-property: font-size;
 	transition-duration: 5ms;
 	transition-delay: 6ms;
-	
 	color: #FFF;
   }
   img.imgBtn{
