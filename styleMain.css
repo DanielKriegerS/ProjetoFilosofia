@@ -34,6 +34,7 @@ td{
 }
 
 table{
+	display:inline-flexbox;
 	border-radius: 20px;
 	border-collapse: collapse;
 	color:#FFF;
@@ -83,21 +84,27 @@ ol.itemFils{
 }
 button.but1,
 button.but2{
-  	font-size: 1em;
-  	background: #3467FE;
-  	color: #fff;
+	background: #3498db;
   	border: 0.25rem solid #3438FE;
   	padding: 0.85em 0.75em;
   	margin: 1rem;
   	position: relative;
   	z-index: 1;
   	overflow: hidden;
+	border-radius: 70px;
 }
 button.but1:hover,
 button.but2:hover {
+	background-color: rgba(10, 84, 102, 0.849);
 	transition-property: font-size;
 	transition-duration: 5ms;
 	transition-delay: 6ms;
-	background: #3498db;
+	
 	color: #FFF;
+  }
+  img.imgBtn{
+	background-size: contain;
+	width: 30px;
+	border-radius: 70%;
+	height: 30px;		
   }
